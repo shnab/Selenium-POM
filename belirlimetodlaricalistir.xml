@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="belirli metodlari calistir">
+    <test name="metodtestleri">
+        <classes>
+            <class name="tests.day18.C1_WebTable">
+                <methods>
+                    <!--include yazinca sadece o methodu calistirir                    -->
+                    <include name="table"></include>
+<!--                    <exclude name=""></exclude>-->
+                </methods>
+<!--                yukaridaki metodu ve asgaidan da classi calistirir. HIYERARSI onemli-->
+            </class>
+            <class name="tests.day19ExcelAutomation.ReadExcel">
+                <methods>
+                    <exclude name="readExcel"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

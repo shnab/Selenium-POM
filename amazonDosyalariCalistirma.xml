@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+    <test name="Regression">
+            <classes>
+                <class name="tests.day22Odev.D26_AmazonHucredekiYaziyiGetir"></class>
+                <class name="tests.day22Odev.D26_AmazonHucreTesti"></class>
+                <class name="tests.day22Odev.D26_AmazonHucreTestJavaExecuter"></class>
+                <class name="tests.day22Odev.D26_HtmlRaporDuzenlemeAmazon"></class>
+            </classes>
+    </test>
+</suite>
