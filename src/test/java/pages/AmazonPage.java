@@ -29,7 +29,7 @@ public class AmazonPage {
     @FindBy(xpath = "//tbody//tr//td")
     public List<WebElement> amazonYazisiAra;
 
-    @FindBy(xpath = "//tbody']") ////*[@id="navFooter"]/div[4]/table
+    @FindBy(xpath = "//tbody//tr[5]//td[3]")
     public WebElement homeService;
 
     @FindBy(xpath = "//tbody//tr//td")

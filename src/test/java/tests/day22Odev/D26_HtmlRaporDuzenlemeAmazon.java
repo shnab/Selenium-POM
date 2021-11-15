@@ -17,7 +17,6 @@ public class D26_HtmlRaporDuzenlemeAmazon extends TestBaseRapor {
     // 4- Assert olan satirda aciklamayi extentTest.pass ile yapabiliriz
      */
 
-
     AmazonPage amazonPage =new AmazonPage();
 
     @Test

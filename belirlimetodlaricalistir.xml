@@ -8,7 +8,7 @@
                     <include name="table"></include>
 <!--                    <exclude name=""></exclude>-->
                 </methods>
-<!--                yukaridaki metodu ve asgaidan da classi calistirir. HIYERARSI onemli-->
+<!--                yukaridaki metodu ve asagidan da classi calistirir. HIYERARSI onemli-->
             </class>
             <class name="tests.day19ExcelAutomation.ReadExcel">
                 <methods>

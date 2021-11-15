@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="gruplar">
     <test name="Regression1">
-    <!--     NE YAPACAK   hangisi calisacak veya calismayacak onu belirliyor.
-            yazacagim gruplari day16 ve aday18 icerisinde arayacak-->
+        <!--     NE YAPACAK   hangisi calisacak veya calismayacak onu belirliyor.
+                yazacagim gruplari day16 ve aday18 icerisinde arayacak-->
         <groups>
             <run>
                 <!--EXCLUDE VE INCLUDE yazilacak               -->
@@ -14,7 +14,7 @@
         <!-- NERDE ARAYACAK... alttaki kisim  bu gruplari nerede arayacagiz. yeri gosteriyoruz.
 Yukari yazacagim gruplari day16 ve aday18 icerisinde arayacak-->
         <packages>
-            <package name="tests.day16"></package>
+              <package name="tests.day16"></package>
             <package name="tests.day18"></package>
         </packages>
     </test>

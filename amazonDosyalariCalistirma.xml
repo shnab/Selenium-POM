@@ -2,10 +2,11 @@
 <suite name="regression">
     <test name="Regression">
             <classes>
-                <class name="tests.day22Odev.D26_AmazonHucredekiYaziyiGetir"></class>
-                <class name="tests.day22Odev.D26_AmazonHucreTesti"></class>
-                <class name="tests.day22Odev.D26_AmazonHucreTestJavaExecuter"></class>
-                <class name="tests.day22Odev.D26_HtmlRaporDuzenlemeAmazon"></class>
+                <class name="tests.day22Odev.D26_AmazonHucredekiYaziyiGetir"/>
+                <class name="tests.day22Odev.D26_AmazonHucreTesti"/>
+                <class name="tests.day22Odev.D26_AmazonHucreTestJavaExecuter"/>
+                <class name="tests.day22Odev.D26_HtmlRaporDuzenlemeAmazon"/>
             </classes>
+
     </test>
 </suite>
